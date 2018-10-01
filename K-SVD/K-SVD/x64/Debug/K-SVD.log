@@ -1,0 +1,150 @@
+﻿  Compiling CUDA source file CudaAlgorithm.cu...
+  Skipping CUDA source file DeviceMemory.cu (excluded from build).
+  Compiling CUDA source file DictionaryUpdate.cu...
+  Compiling CUDA source file ErrorHandler.cu...
+  Skipping CUDA source file HostMemory.cu (excluded from build).
+  Compiling CUDA source file FileManager.cu...
+  Compiling CUDA source file KSVD.cu...
+  Compiling CUDA source file main.cu...
+  Skipping CUDA source file ThrustOperators.cu (excluded from build).
+  Compiling CUDA source file OMP.cu...
+  Compiling CUDA source file Timer.cu...
+  Compiling CUDA source file Utilities.cu...
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\CudaAlgorithm.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\CudaAlgorithm.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\ErrorHandler.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\ErrorHandler.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\DictionaryUpdate.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\DictionaryUpdate.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\KSVD.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\KSVD.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\FileManager.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\FileManager.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\main.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\main.cu" 
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\Timer.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\Timer.cu" 
+  
+  
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\OMP.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\OMP.cu" 
+  C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\Utilities.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\Utilities.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\crtdbg.h(302): warning C4005: '_malloca': macro redefinition
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(44): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(48): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(52): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/sequential/malloc_and_free.h(36): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/sequential/malloc_and_free.h(48): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/malloc.hpp(566): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/malloc.hpp(587): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce.hpp(198): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce.hpp(215): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce.hpp(240): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce.hpp(261): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/accumulate.hpp(145): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/accumulate.hpp(189): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/scan.hpp(472): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/scan.hpp(483): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/scan.hpp(575): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/scan.hpp(586): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/merge.hpp(466): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/merge.hpp(501): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/merge.hpp(540): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/merge.hpp(603): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce_by_key.hpp(149): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce_by_key.hpp(150): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce_by_key.hpp(211): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/reduce_by_key.hpp(212): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/detail/stable_merge_sort.hpp(156): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/detail/stable_merge_sort.hpp(204): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(32): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(37): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(45): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(74): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(78): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(45): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(58): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(67): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(73): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(37): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(47): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(49): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(57): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/temporary_buffer.inl(54): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(439): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(439): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/device_malloc.inl(41): warning C4002: too many actual parameters for macro 'malloc'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/device_free.inl(40): warning C4002: too many actual parameters for macro 'free'
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(44): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(44): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(44): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(48): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(48): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(48): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.h(52): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/sequential/malloc_and_free.h(36): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/sequential/malloc_and_free.h(36): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/sequential/malloc_and_free.h(36): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/sequential/malloc_and_free.h(48): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/malloc.hpp(566): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/malloc.hpp(566): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/malloc.hpp(566): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/malloc.hpp(587): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(32): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(32): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(32): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(45): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(45): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(45): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/malloc_and_free.h(74): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(45): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(45): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(45): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/malloc_and_free.h(67): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(37): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(37): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(37): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(47): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(47): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(47): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/detail/generic/memory.inl(57): error : expected a type specifier
+  ErrorHandler.cu
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(439): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(305): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(343): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/memory.h(439): error : expected a type specifier
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/device_free.inl(40): error : no instance of function template "thrust::_free_dbg" matches the argument list
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/device_malloc.inl(55): error : namespace "thrust" has no member "malloc"
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/device_malloc.inl(55): error : type name is not allowed
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/device_malloc.inl(55): warning : expression has no effect
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/device_malloc.inl(55): error : expression must have class type
+  main.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 8.0.targets(689,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\main.cu.obj "C:\Users\Thesis\Dropbox\Visual Studio 2015\Projects\K-SVD\K-SVD\main.cu"" exited with code 2.
+  Utilities.cu
+  FileManager.cu
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/detail/stable_merge_sort.hpp(235): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss
+  CudaAlgorithm.cu
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/detail/stable_merge_sort.hpp(235): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss
+  OMP.cu
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/detail/stable_merge_sort.hpp(234): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss
+  DictionaryUpdate.cu
+  Timer.cu
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/bulk/algorithm/detail/stable_merge_sort.hpp(235): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss
+  KSVD.cu
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/allocator/allocator_traits.h(129): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/allocator/allocator_traits.h(130): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/allocator/allocator_traits.h(129): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/detail/allocator/allocator_traits.h(130): warning C4819: The file contains a character that cannot be represented in the current code page (1253). Save the file in Unicode format to prevent data loss

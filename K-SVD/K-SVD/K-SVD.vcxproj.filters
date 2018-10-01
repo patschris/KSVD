@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="Utilities.cu">
+      <Filter>General Utilities</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Timer.cu">
+      <Filter>General Utilities</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ErrorHandler.cu">
+      <Filter>General Utilities</Filter>
+    </CudaCompile>
+    <CudaCompile Include="FileManager.cu">
+      <Filter>General Utilities</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DeviceMemory.cu">
+      <Filter>Memory</Filter>
+    </CudaCompile>
+    <CudaCompile Include="HostMemory.cu">
+      <Filter>Memory</Filter>
+    </CudaCompile>
+    <CudaCompile Include="KSVD.cu">
+      <Filter>KSVD</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CudaAlgorithm.cu">
+      <Filter>KSVD</Filter>
+    </CudaCompile>
+    <CudaCompile Include="OMP.cu">
+      <Filter>KSVD</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DictionaryUpdate.cu">
+      <Filter>KSVD</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ThrustOperators.cu">
+      <Filter>Thrust</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Reduction.cu">
+      <Filter>Algorithms</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Multiplication.cu">
+      <Filter>Algorithms</Filter>
+    </CudaCompile>
+    <CudaCompile Include="RandPermutation.cu">
+      <Filter>Algorithms</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ReductionKernels.cu">
+      <Filter>Algorithms</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utilities.cuh">
+      <Filter>General Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.cuh">
+      <Filter>General Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.cuh">
+      <Filter>General Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.cuh">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDeclarations.cuh">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.cuh">
+      <Filter>General Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMemory.cuh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="HostMemory.cuh">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaAlgorithm.cuh">
+      <Filter>KSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="KSVD.cuh">
+      <Filter>KSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="OMP.cuh">
+      <Filter>KSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="DictionaryUpdate.cuh">
+      <Filter>KSVD</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrustOperators.cuh">
+      <Filter>Thrust</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithms.cuh">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ReductionKernels.cuh">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ReductionBase.cuh">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramParameters.cuh">
+      <Filter>Globals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="General Utilities">
+      <UniqueIdentifier>{b9012368-088c-4a86-83ac-0961144ca0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{0e9e36a0-ccd4-43ed-b553-a7a551e06929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{896a578f-4148-4358-ac2e-c94c949f5953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KSVD">
+      <UniqueIdentifier>{b2edc4ab-0c36-4043-bbee-9db9e2f0bda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thrust">
+      <UniqueIdentifier>{6eaec4b3-0d69-41a9-ad2d-684b87256f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{0722c3a5-01e4-4938-9068-111c53238d2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
